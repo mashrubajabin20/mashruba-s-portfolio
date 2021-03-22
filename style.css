@@ -1,0 +1,513 @@
+body{
+	margin: 0;
+	font-family: tahoma;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+}
+/*
+=============================
+
+=============================
+*/
+nav{
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	z-index: 99;
+}
+.content-area{
+	width: 80%;
+	margin: auto;
+}
+nav:after{
+	content: '';
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: #000000;
+	opacity: .29;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -2;
+}
+.logo-area{
+	float: left;
+	width: 14%;
+}
+.logo-area img{
+	width: 100%;
+	padding: 17px 50px;
+}
+.menu-area{
+	overflow: hidden;
+	float: right;
+}
+.menu-area ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 40px;
+}.menu-area ul li{
+	float: left;
+}
+.menu-area ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 40px 10px;
+	display: inline-block;
+	font-size: 12.5px;
+	text-transform: uppercase;
+}
+.header-area{
+	content:  '';
+	background: url(img/p22.jpg);
+	height: 100%;
+	background-size: cover;
+	text-align: center;
+}
+.header-area img
+{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.header-area:after{
+	content: '';
+	display: block;
+	height: 100%;
+	width: 100%;
+	background: #000000;
+	opacity: .3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.header-area h1{
+	padding-top: 250px;
+	margin: 0;
+	color: #000000;
+	font-size: 40px;
+	font-weight: 600;
+
+}
+.header-area h1 span{
+	color: #fe320a;
+	font-size: 50px;
+}
+.header-area p{
+	margin: 30px 10% 60px 10%;
+	color: #FFFFFF;
+	font-size: 14px;
+	width: 90%;
+}
+.header-area a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding:12px 40px;
+	background: #fe320a;
+}
+.about-area{
+	width: 100%;
+	overflow: hidden;
+	}
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top:50px;
+	margin-bottom: 0; 
+	position: relative;
+}
+h2 span{
+	color: #fe320a;
+}
+h2:after{
+	content: '';
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 112%;
+	left: 50%;
+	background: #fe320a;
+}
+hr{
+	width: 12%;
+	color: #fe320a;
+}
+.left-side{
+	float: left;
+	width: 29%;
+	margin: 50px 0 0 50px;
+	position: relative;
+}
+.left-side img{
+	width: 100%;
+	background-size: 100% 100%;
+}
+.left-side .link{
+	background: #595f61;
+	opacity:.69;
+	color: #FFFFFF;
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	top: 69%;
+	left: 0;
+	z-index: 0;
+}
+
+.link h4{
+	text-transform: uppercase;
+	text-align: center;
+}
+.link ul{
+	margin: 0 15px 0 15px;
+	padding-top: 0;
+	list-style: none;
+	
+}
+.link ul li{
+	float: left;
+	padding-right: 20px;
+}
+.link ul li a i{
+	font-size: 12px;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	color: #FFFFFF;
+	padding: 5px;
+	background-color: #252525;
+}
+.link ul li a i:hover{
+	color: #252525;
+	background-color: #FFFFFF;
+}
+.right-side{
+	float: right;
+	width: 64%;
+	margin-top: 30px;
+}
+.right-side a{
+	padding: 10px 30px;
+	background-color: #ff0000;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: 500;
+}
+.video-area img{
+	width: 100%;
+	padding: 17px 50px;
+}
+.service-area{
+	background-size: cover;
+	overflow: hidden;
+}
+
+ .service h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.col-1-3 i{
+	font-size: 28px;
+	color: #ff0000;
+}	
+
+.col-1-3{
+	width: 31.33%;
+	margin: 0 1%;
+	float: left;
+	overflow: hidden;
+	padding-bottom: 10px;
+
+	
+}
+/* Skill Area==========*/
+.skill-area{
+	overflow: hidden;
+	width: 100%;
+	background-color: #f3f3f3;
+	padding-bottom: 30px;
+}
+.skilldescription-area .left-side{
+	width: 45%;
+	float: left;
+	margin-top: 0;
+	margin-left: 25px;
+}
+.skilldescription-area .left-side h3{
+	color: #151515;
+}
+.skilldescription-area .left-side p{
+	color: #515151;
+	font-size: 11px;
+	line-height: 20px;
+}
+.skilldescription-area .right-side{
+	width: 45%;
+	float: right;
+	margin-top: 0;
+	margin-left: 25px;
+}
+.skilldescription-area .right-side h3{
+	margin-top: 60px;
+
+}
+.skilldescription-area .right-side p{
+	color: #515151;
+	font-size: 11px;
+	line-height: 20px;
+}
+.skilldescription-area .right-side h4{
+	color: #515151;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.skilldescription-area .right-side .prup{
+	background: #000000;
+	height: 15px;
+	border-radius: 7px;
+	width: 98%;
+}
+.skilldescription-area .right-side .prup p{
+	color: #FFFFFF;
+	float: right;
+	font-size: 10px;
+	margin: -3px 5px 0 0;
+
+}
+.skilldescription-area .right-side .prin{
+	background: #ff0000;
+	height: 8px;
+	border-radius: 5px;
+	width: 80%;
+	float: left;
+	margin-top: 3.5px;
+	margin-left: 3.5px;
+}
+.skilldescription-area .right-side .prin1{
+	background: #ff0000;
+	height: 8px;
+	border-radius: 5px;
+	width: 70%;
+	float: left;
+	margin-top: 3.5px;
+	margin-left: 3.5px;
+}
+.skilldescription-area .right-side .prin2{
+	background: #ff0000;
+	height: 8px;
+	border-radius: 5px;
+	width: 90%;
+	float: left;
+	margin-top: 3.5px;
+	margin-left: 3.5px;
+}
+.clint-area{
+	width: 100%;
+	background-size: cover;
+}
+.clint img{
+height: 100%;
+width: 100%;
+padding: 0;
+margin: 0;
+background-size: cover;
+}
+.portfolio{
+	overflow: hidden;
+	height: 90%;
+}
+.second-menu{
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+	background-size: cover;
+}
+.second-menu ul{
+	margin: 20px 0 0 90px;
+	padding: 0;
+	
+}
+.second-menu ul li{
+	float: left;
+	list-style: none;
+	overflow: hidden;
+}
+.second-menu ul li a{
+	padding: 20px 35px;
+	overflow: hidden;
+}
+.second-menu ul li a i{
+	font-size: 30px;
+	overflow: hidden;
+	overflow: hidden;
+}
+
+.skill-pic .col-1-3{
+	margin: 0 1% 0 1%;
+	width: 31.33%;
+	float: left;
+	overflow: hidden;
+}
+.skill-pic .col-1-3 img{
+	width: 100%;
+	transition: 1s;
+	overflow: hidden;
+	
+}
+.skill-pic .col-1-3 img:hover{
+	transform: scale(1.3);
+	box-shadow: 0 0 3px 5px gray;
+	overflow: hidden;
+}
+.team-area{
+	overflow: hidden;
+	width: 100%;
+    height: 90%;
+	background-color: #e1e1e1;
+}
+
+.team-pic .col-1-3{
+    margin: 1% 1.5% 1 1.5%;
+	width: 21.33%;
+	float: left;
+	overflow: hidden;	
+
+}
+
+.detail{
+	background: url(img/detail.jpg);
+
+}
+detail:after{
+	content: '';
+	display: block;
+	background:gray;
+	opacity:.6;
+	height: 100%;
+	width:100%;
+	position: absolute;
+	top: 0%;
+	left: 0;
+
+}
+.all h3{
+	color: #FFFFFF;
+	padding-left: 52%;
+	text-transform: uppercase;
+}
+.all p{
+	color: #FFFFFF;
+	padding-left: 30%;
+	padding-bottom: 5%;
+}
+.pic{
+	padding-left: 55%;
+	padding-top: 8%;
+}
+.pic img{
+	width: 25%;
+	height: 1%;
+	background-size: cover;
+	border-radius: 50%;
+	overflow: hidden;
+
+
+}
+.main-blog{
+    width: 100%;
+    margin: 30px 0 30px 0;
+    overflow: hidden;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.blog{
+	width: 31.33%;
+	float: left;
+	margin: 1% 1% 1% 1% ;
+	box-shadow: 0 0 15px 1px gray;
+	overflow: hidden;
+	padding-bottom: 3%;
+}
+.blog h4{
+	margin-left: 5%;
+}
+.blog h6{
+	margin-bottom: 1%;
+	margin-left: 5%;
+}
+.blog h6 i{
+	color: red;
+}
+.blog p{
+	font-size: 15px;
+	
+	margin-left: 5%;
+	margin-bottom:8%;
+}
+.blog a{
+	padding: 5px 10px;
+	background: #000;
+	text-decoration: none;
+	margin-left: 5%;
+	color: #FFFFFF;
+	
+	
+}
+.blog img{
+	width: 100%;
+}
+.message-area{
+background-image: url(laptop2.jpg);
+overflow: hidden;
+}
+.message-area img{
+	background-size: cover;
+	width: 100%;
+}
+
+#lora{
+    height: 25px;
+    margin-bottom: 22px;
+}
+#lg{
+	height: 40px;
+	width: 33%;
+}
+.message{
+	position: relative;
+	bottom: 150px;
+	left: 150px;
+}
+.footer-area{
+	background: #121111;
+	overflow: hidden;
+}
+.footer-left{
+	float: left;
+	width: 48%;
+}
+.footer-left a{
+	padding-left: 5%;
+}
+.footer-left a i{
+	font-size:20px;
+    padding-top:8%;
+    padding-bottom: 5%;
+    color: #FFFFFF;
+}
+.footer-right{
+	float: right;
+}
+.footer-right h4{
+	color: #FFFFFF;
+	padding-top: 12%;
+    padding-bottom:8%;
+}
